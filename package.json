@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sabyrkazen/token-tycoon-bot#readme",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "telegraf": "^4.16.3"
   }
 }

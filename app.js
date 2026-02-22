@@ -1,6 +1,9 @@
 import { Telegraf, Markup } from 'telegraf'
+import dotenv from 'dotenv'
 
-const token = ''
+dotenv.config()
+
+const token = process.env.BOT_TOKEN
 const webAppUrl = 'https://token-tycoon-clicker.web.app/'
 
 const bot = new Telegraf(token)
