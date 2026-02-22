@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sabyrkazen/token-tycoon-bot/issues"
   },
-  "homepage": "https://github.com/sabyrkazen/token-tycoon-bot#readme"
+  "homepage": "https://github.com/sabyrkazen/token-tycoon-bot#readme",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  }
 }
